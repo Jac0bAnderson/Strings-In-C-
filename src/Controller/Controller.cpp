@@ -12,28 +12,40 @@ using namespace std;
 
 void Controller :: size()
 {
-	std::string stringSize ("Hello");
-	std:: cout << "stringSize is " << stringSize.length()<<endl;
+	string stringSize ("Hello");
+	cout << "stringSize is " << stringSize.length()<<endl;
 }
 
 void Controller :: empty()
 {
-std::string isEmpty ("false");
+	string isEmpty ("false");
 if(!isEmpty.empty())
 {
-	std:: cout << "isEmpty contains something "<< endl;
+	 cout << "isEmpty contains something "<< endl;
 }
 }
 
 void Controller :: compare()
 {
+ string stringOne ("Same");
+ string stringTwo ("Same");
 
+ int final = stringOne.compare(stringTwo);
+ if(final == 0)
+ {
+	 cout << "stringOne and stringTwo are the same"<< endl;
+ }
+ else
+ {
+	 cout<< " stringOne and stringTwo are not the same"<< endl;
+ }
 }
 
 void Controller :: start()
 {
 size();
 empty();
+compare();
 }
 
 
