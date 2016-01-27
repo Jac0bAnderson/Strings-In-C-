@@ -58,7 +58,7 @@ void Controller :: subStartEND()
 {
 string Wat = "asdfcoolasdf";
 string Oh = Wat.substr(4,4);
-cout<< Oh << endl;
+cout<<"before "<<Wat<< " After " << Oh << endl;
 
 }
 void Controller :: start()
