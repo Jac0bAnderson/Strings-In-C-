@@ -41,11 +41,34 @@ void Controller :: compare()
  }
 }
 
+void Controller :: squareBrackets()
+{
+string squares ("Circles");
+squares = squares[2];
+cout<< squares<<endl;
+}
+
+void Controller :: subStart()
+{
+string wat = "asfadsfhjkdsHello";
+string oh = wat.substr(12, 12);
+cout<< oh <<endl;
+}
+void Controller :: subStartEND()
+{
+string Wat = "asdfcoolasdf";
+string Oh = Wat.substr(4,4);
+cout<< Oh << endl;
+
+}
 void Controller :: start()
 {
 size();
 empty();
 compare();
+squareBrackets();
+subStart();
+subStartEND();
 }
 
 

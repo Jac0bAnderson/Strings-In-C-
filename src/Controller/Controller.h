@@ -15,6 +15,9 @@ public:
 	void size();
 	void empty();
 	void compare();
+	void squareBrackets();
+	void subStart();
+	void subStartEND();
 	void start();
 };
 
